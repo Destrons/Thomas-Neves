@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-    background-image: url('../images/circuit-lines.png');
+    background-image: url('./assets/circuit-lines.png');
     background-size: cover;
     justify-content: space-between;
     padding: 20px;
@@ -21,9 +21,19 @@ header, footer {
     background-color: #333 0.1;
     color: white;
 }
-
+.header-left{
+    margin-left: 15%;
+}
+.header-right{
+    margin-right: 15%;
+}
 .header-left, .header-right {
     align-items: center;
+}
+
+.picperf{
+    width: 150px;
+    height: 150px;
 }
 
 section {

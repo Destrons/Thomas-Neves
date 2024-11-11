@@ -1,4 +1,6 @@
 import React from 'react';
+import thomasImage from '../assets/thomas.png';
+
 
 function Header() {
     return (
@@ -9,7 +11,7 @@ function Header() {
                 <p>Desenvolvedor Full Stack e especialista em infraestrutura em nuvem</p>
             </div>
             <div class="header-right">
-            <img src="../images/thomas.png" alt="Foto de Perfil"></img>
+            <img src={thomasImage} alt="Foto de Perfil" />
             </div>
 
         </header>
