@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+/* App.css */
+body {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header, footer {
+    background-image: url('../images/circuit-lines.png');
+    background-size: cover;
+    justify-content: space-between;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    background-color: #333 0.1;
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-left, .header-right {
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section {
+    padding: 20px;
+    margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em;
+    }
+    header, footer {
+        padding: 15px;
+    }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
