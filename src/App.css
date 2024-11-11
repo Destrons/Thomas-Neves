@@ -12,18 +12,57 @@ header, footer {
     background-image: url('../images/circuit-lines.png');
     background-size: cover;
     justify-content: space-between;
-    padding: 20px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     text-align: center;
     padding: 20px;
-    background-color: #333 0.1;
     color: white;
 }
-
+.header-left{
+    margin-left: 15%;
+}
+.header-right{
+    margin-right: 15%;
+}
 .header-left, .header-right {
     align-items: center;
+}
+
+.picperf{
+    width: 150px;
+    height: 150px;
+    border: 5px solid ;
+    border-radius: 25%;
+    box-shadow: 
+    0 0 10px #8B008B, 
+    0 0 20px #8B008B, 
+    0 0 30px #8B008B, 
+    0 0 40px #8B008B, 
+    0 0 50px #8B008B;
+}
+.title-txt{
+    padding: 5px;
+    background-color: #4B0082;
+    border-radius: 35%;
+    box-shadow: 
+    0 0 10px #8B008B, 
+    0 0 20px #8B008B, 
+    0 0 30px #8B008B, 
+    0 0 40px #8B008B, 
+    0 0 50px #8B008B;
+}
+
+.title-txt-rsm{
+    padding: 10px;
+    background-color: #4B0082;
+    border-radius: 35%;
+    box-shadow: 
+    0 0 10px #8B008B, 
+    0 0 20px #8B008B, 
+    0 0 30px #8B008B, 
+    0 0 40px #8B008B, 
+    0 0 50px #8B008B;
 }
 
 section {

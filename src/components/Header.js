@@ -1,17 +1,16 @@
 import React from 'react';
+import thomasImage from '../assets/thomas.png';
 
 function Header() {
     return (
         <header className="header">
-
-            <div class="header-left">
-                <h1 class="title-txt">Thomas Neves Pereira</h1>
-                <p>Desenvolvedor Full Stack e especialista em infraestrutura em nuvem</p>
+            <div className="header-left">
+                <h1 className="title-txt">Thomas Neves Pereira</h1>
+                <p className="title-txt-rsm">Desenvolvedor Full Stack e especialista em infraestrutura em nuvem</p>
             </div>
-            <div class="header-right">
-            <img src="../images/thomas.png" alt="Foto de Perfil"></img>
+            <div className="header-right, neon-border">
+                <img className="picperf" src={thomasImage} alt="Foto de Perfil" />
             </div>
-
         </header>
     );
 }
