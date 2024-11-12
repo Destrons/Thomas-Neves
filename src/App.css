@@ -4,8 +4,11 @@ body {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-variation-settings:
-      "ROND" 0;
+    font-variation-settings: "ROND" 0;
+    background-image: url('./assets/glowing_circuit_lines-efects.gif');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 
 header, footer {
@@ -21,24 +24,55 @@ header, footer {
     background-color: #333 0.1;
     color: white;
 }
+
+header{
+    box-shadow: 0 5px 10px rgba(75, 0, 130, 0.8);
+    border-bottom: 2px solid #7B68EE;
+}
 .header-left{
     margin-left: 15%;
+    width: 75%;
+    background-color: black;
+    border: 2px solid #7B68EE;
+    padding: 5px;
+    border-Radius: 10%;
+    box-Shadow: 0 0 10px #4B0082, 0 0 20px #4B0082, 0 0 30px #4B0082, 0 0 40px #4B0082, 0 0 50px #4B0082;
 }
 .header-right{
     margin-right: 15%;
+    width: 25%;
+
 }
 .header-left, .header-right {
     align-items: center;
 }
-
+.title-txt{
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
 .picperf{
     width: 150px;
     height: 150px;
+    border: 2px solid #7B68EE;
+    padding: 5px;
+    border-Radius: 35%;
+    box-Shadow: 0 0 10px #4B0082, 0 0 20px #4B0082, 0 0 30px #4B0082, 0 0 40px #4B0082, 0 0 50px #4B0082;
+}
+
+.navbtt{
+    color: white;
+    background-color: #4B0082;
+    margin: 0 5px 0 5px;
+    width: 100px;
+    border-radius: 10%;
+    border: 1px solid grey;
+    box-Shadow: 0 0 5px #4B0082, 0 0 10px #4B0082, 0 0 15px #4B0082, 0 0 20px #4B0082, 0 0 25px #4B0082;
 }
 
 section {
     padding: 20px;
     margin: 10px;
+    background-color: white;
+    margin: 20px;
 }
 
 h2 {
