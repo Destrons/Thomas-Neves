@@ -1,6 +1,5 @@
 import React from 'react';
 import thomasimage from '../assets/thomas.png';
-import { getByDisplayValue } from '@testing-library/react';
 
 
 function Header() {

@@ -2,13 +2,16 @@
 body {
     font-family: "Doto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 900;
+    font-weight: 600;
     font-style: normal;
     font-variation-settings: "ROND" 0;
     background-image: url('./assets/glowing_circuit_lines-efects.gif');
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; 
+}
+h2, h3{
+    font-weight: 900;
 }
 
 header, footer {
@@ -68,11 +71,40 @@ header{
     box-Shadow: 0 0 5px #4B0082, 0 0 10px #4B0082, 0 0 15px #4B0082, 0 0 20px #4B0082, 0 0 25px #4B0082;
 }
 
+.about, .skills, .contact{
+ text-align: center;
+}
+
+.art-txt1, .art-txt2, .art-txt3, .art-skl1, .art-skl2{
+    width: 33%;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 5px 0 5px;
+    border: 1px solid grey;
+    box-Shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+    margin-bottom: 10px;
+}
+.art-txt1, .art-skl1{
+    
+    border-top-left-radius: 10%;
+}
+.art-txt3, .art-skl2{
+    border-bottom-right-radius: 10%;
+}
+.art-skl1, .art-skl2{
+    width: 50%;
+}
+
 section {
     padding: 20px;
-    margin: 10px;
+    margin: 30px 20px 30px 20px;
     background-color: white;
-    margin: 20px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 2px solid #7B68EE;
+    box-Shadow: 0 0 5px #4B0082, 0 0 10px #4B0082, 0 0 15px #4B0082, 0 0 20px #4B0082, 0 0 25px #4B0082;
+    background-color: black;
+    color:white;
 }
 
 h2 {
@@ -86,6 +118,14 @@ h2 {
     }
     header, footer {
         padding: 15px;
+    }
+    .picperf{
+        width: 50px;
+        height: 50px;
+        border: 2px solid #7B68EE;
+        padding: 5px;
+        border-Radius: 35%;
+        box-Shadow: 0 0 10px #4B0082, 0 0 20px #4B0082, 0 0 30px #4B0082, 0 0 40px #4B0082, 0 0 50px #4B0082;
     }
 }
 
